@@ -11,10 +11,7 @@ on:
     #   - main
   pull_request:
 
-permissions:
-  contents: write
-  # Needed for the 'trilom/file-changes-action' action
-  pull-requests: write
+permissions: write-all
 
 # This allows a subsequently queued workflow run to interrupt previous runs
 concurrency:
