@@ -40,7 +40,7 @@ Mise en place de l'environnement et premiers tests
 
 - Créer un dosier pour votre projet
 - Ouvrir le dossier dans Vscode
-- `npm install cypress –save-dev`
+- `npm install cypress –-save-dev`
 - `npx cypress open`
 Cette dernière commande créé les dossiers de base dans l'arborescence du projet et ouvre la fenêtre de lancement des tests, il est possible de demander la création d'un projet d'example
 ---
