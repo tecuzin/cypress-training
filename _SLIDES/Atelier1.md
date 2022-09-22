@@ -20,10 +20,10 @@ Mise en pace de l'environnement et premiers tests
 ## Pourquoi cet atelier
 
 - La stratégie de tests web comprend des tests :
-- De composants
-- D’intégration
-- De « mini-services »
-- D'API
+  - De composants
+  - D’intégration
+  - De « mini-services »
+  - D'API
 - De nouveaux outils sont donc en cours d’évaluation pour prendre en charge ces tests
 
 ---
@@ -38,26 +38,30 @@ Mise en pace de l'environnement et premiers tests
 
 ## Initialisation du projet et premier lancement
 
+- Créer un dosier pour votre projet
 - Ouvrir le dossier dans Vscode
 - `npm install cypress –save-dev`
 - `npx cypress open`
-Cette dernière commande créé les dossiers de base dans l'arborescence du projet et ouvre la fenêtre de lancement des tests,il st possible de demander la création d'un projet d'example
+Cette dernière commande créé les dossiers de base dans l'arborescence du projet et ouvre la fenêtre de lancement des tests,il est possible de demander la création d'un projet d'example
 ---
 
 ## Lecture de quelques scénarios
 
 - Structure d'une spécification de test
 - Les commandes Cypress
-- Les didférents types de tests
+- Les différents types de tests
+
 ---
 
 ## Atelier
 
 - Choisir un site à tester
 - Créer une première spec permettant de vérifier :
-- La présence des éléments du DOM dans la page
+- La présence des éléments du *DOM* dans la page
 - Le bon chargement de la page
 - Le remplissage de quelque champs
+
+DOM : La hiérarchie des objet composants une page
 
 ---
 
