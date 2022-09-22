@@ -40,6 +40,11 @@ jobs:
       # Creates file "$/files.json", among others
       - name: Render PDF from Marp files
         run: npx @marp-team/marp-cli@latest ./_SLIDES/*.md
+          
+      - uses: actions/upload-artifact@v3
+        with:
+          name: pdf
+          path: _SLIDES
 
       # Creates file "$/files.json", among others
       - name: Gather files changed
