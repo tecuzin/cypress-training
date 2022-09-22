@@ -4,7 +4,7 @@ marp: true
 
 # Communauté testeurs - Atelier Cypress #1
 
-Mise en pace de l'environnement et premiers tests
+Mise en place de l'environnement et premiers tests
 
 ---
 
@@ -72,6 +72,5 @@ DOM : La hiérarchie des objet composants une page
 - Créer ses propres commandes Cypress
 
 ---
-
 
 ## Merci :)
