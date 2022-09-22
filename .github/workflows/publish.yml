@@ -7,8 +7,8 @@ name: Publish a version of the training
 on:
   workflow_dispatch:
   push:
-    branches:
-      - main
+    # branches:
+    #   - main
   pull_request:
 
 permissions:
