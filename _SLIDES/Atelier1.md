@@ -42,7 +42,7 @@ Mise en pace de l'environnement et premiers tests
 - Ouvrir le dossier dans Vscode
 - `npm install cypress –save-dev`
 - `npx cypress open`
-Cette dernière commande créé les dossiers de base dans l'arborescence du projet et ouvre la fenêtre de lancement des tests,il est possible de demander la création d'un projet d'example
+Cette dernière commande créé les dossiers de base dans l'arborescence du projet et ouvre la fenêtre de lancement des tests, il est possible de demander la création d'un projet d'example
 ---
 
 ## Lecture de quelques scénarios
